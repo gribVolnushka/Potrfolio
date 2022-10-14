@@ -1,0 +1,211 @@
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #333333;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1107px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    font-size: 24px;
+    line-height: calc(29 / 24);
+    font-weight: 700;
+}
+.hero{
+    background-image: url("Image/Background.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 93px;
+    padding-bottom: 240px;
+    color: #FFFFFF;
+ }
+ /*start Header*/
+ header{
+     margin-bottom: 145px;
+ }
+ header > div{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .logo{
+     font-size: 24px;
+     line-height: calc(29 / 24);
+     font-weight: 700;
+ }
+ header nav ul{
+     display: flex;
+     gap: 60px;
+ }
+ header nav ul a{
+     font-size: 18px;
+     line-height: calc(22 / 18);
+ }
+ header nav ul li:first-child a{
+     font-weight: 700;
+ }
+/* end Header*/
+
+/*start Hero-content*/
+h1{
+    font-size: 64px;
+    line-height: calc(78 / 64);
+    margin-bottom: 26px;
+}
+.hero-content p{
+    font-size: 24px;
+    line-height: calc(29 / 24);
+    margin-bottom: 106px;
+}
+.hero-content a{
+    font-size: 18px;
+    line-height: calc(22 / 18);
+    text-decoration: underline;
+}
+/*end Hero-content*/
+
+/*start About*/
+.about{
+    padding-top: 93px;
+    padding-bottom: 115px;
+}
+.about h2{
+    margin-bottom: 76px;
+}
+.about p{
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    margin-bottom: 30px;
+}
+.about p:last-child{
+    margin-bottom: 0px;
+}
+/*end About*/
+
+/*start Skills*/
+.skills{
+    background-color:  #FFFAF2;
+    padding-top: 93px;
+    padding-bottom: 135px;
+}
+.skills h2{
+    margin-bottom: 86px;
+}
+.skills-row{
+    display: flex;
+    gap: 123px;
+}
+.skills-row img{
+    width: 350px;
+}
+.list-skills{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list-skills li{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list-skills li:first-child{
+    padding-bottom: 45px;
+}
+.skills-item{
+    display: flex;
+    gap: 66px;
+}
+.skills-key{
+    width: 123px;
+    font-size: 18px;
+    line-height: calc(25 / 18);
+    font-weight: 600;
+}
+.skills-value{
+    font-size: 18px;
+    line-height: calc(25 / 18);
+}
+.progressbar{
+    flex-grow: 1;
+    height: 24px;
+    background-color: #F5D6AB;
+    overflow: hidden;
+}
+.progressbar-percent{
+    background-color: #C66C49;
+    height: 100%;
+    width: 80%;
+}
+/*end Skills*/
+
+/*start Portfolio*/
+.portfolio{
+    padding-top: 93px;
+    padding-bottom: 139px;
+}
+.portfolio h2{
+    margin-bottom: 86px;
+}
+.portfolio-row{
+    display: flex;
+    gap: 125px;
+}
+.portfolio-text{
+    width: 349px;
+    flex-shrink: 0;
+}
+.portfolio-text h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: calc(25 / 18);
+    margin-bottom: 48px;
+}
+.portfolio-text p{
+    font-size: 18px;
+    line-height: calc(30 / 18);
+}
+.portfolio-images{
+    padding-top: 54px;
+    display: flex;
+    gap: 30px;
+}
+.portfolio-column{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 350px;
+}
+.portfolio-column:last-child{
+    width: 255px;
+}
+/*end Portfolio*/
+
+/*start Footer*/
+footer{
+    background-color: #FFFAF2;
+    padding-top: 93px;
+    padding-bottom: 189px;
+}
+footer h2{
+    margin-bottom: 51px;
+}
+.footer-row{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    line-height: calc(22 / 18);
+}
+.footer-row ul{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+/*end Footer*/
+
