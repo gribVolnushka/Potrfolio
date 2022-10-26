@@ -1,0 +1,44 @@
+/*start Header*/
+.header{
+    margin-bottom: 145px;
+}
+.hero__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    line-height: calc(29 / 24);
+    font-weight: 700;
+}
+.header__list{
+    display: flex;
+    gap: 60px;
+}
+.header__link{
+    font-size: 18px;
+    line-height: calc(22 / 18);
+}
+.header__item:first-child{
+    font-weight: 700;
+}
+/* end Header*/
+
+/*start Hero-content*/
+.hero-content__title{
+    font-size: 64px;
+    line-height: calc(78 / 64);
+    margin-bottom: 26px;
+}
+.hero-content__text{
+    font-size: 24px;
+    line-height: calc(29 / 24);
+    margin-bottom: 106px;
+}
+.hero-content__link{
+    font-size: 18px;
+    line-height: calc(22 / 18);
+    text-decoration: underline;
+}
+/*end Hero-content*/

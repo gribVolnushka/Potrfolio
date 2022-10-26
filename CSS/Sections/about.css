@@ -1,0 +1,18 @@
+.about{
+    padding-top: 93px;
+    padding-bottom: 115px;
+}
+.about__title{
+    font-size: 24px;
+    line-height: calc(29 / 24);
+    font-weight: 700;
+    margin-bottom: 76px;
+}
+.about__text{
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    margin-bottom: 30px;
+}
+.about__text:last-child{
+    margin-bottom: 0;
+}

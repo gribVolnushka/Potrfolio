@@ -8,41 +8,41 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
 
 <!--start Hero-->
 <div class="hero">
 
-<!-- start Header-->
-    <header>
+    <!-- start Header-->
+    <header class="header">
 
-        <div class="container">
+        <div class="container hero__container">
 
             <a href="" class="logo">
                 Portfolio
             </a>
 
-            <nav>
+            <nav class="header__navigate">
 
-                <ul>
-                    <li>
-                        <a href="">Home</a>
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="">Home</a>
                     </li>
-                    <li>
-                        <a href="">About</a>
+                    <li class="header__item">
+                        <a class="header__link" href="">About</a>
                     </li>
-                    <li>
-                        <a href="">Skills</a>
+                    <li class="header__item">
+                        <a class="header__link" href="">Skills</a>
                     </li>
-                    <li>
-                        <a href="">Portfolio</a>
+                    <li class="header__item">
+                        <a class="header__link" href="">Portfolio</a>
                     </li>
-                    <li>
-                        <a href="">Contact</a>
+                    <li class="header__item">
+                        <a class="header__link" href="">Contact</a>
                     </li>
 
                 </ul>
@@ -51,25 +51,25 @@
         </div>
 
     </header>
-<!-- end Header-->
+    <!-- end Header-->
 
-<!--    start Hero-content-->
+    <!--    start Hero-content-->
 
     <section class="hero-content">
         <div class="container">
 
-            <h1>
+            <h1 class="hero-content__title">
                 Hi, It’s Théophile Seyrig
             </h1>
-            <p>
+            <p class="hero-content__text">
                 Designer from Porto, Portugal
             </p>
-            <a href="">Latest works</a>
+            <a class="hero-content__link" href="">Latest works</a>
 
         </div>
     </section>
 
-<!--    end Hero-content-->
+    <!--    end Hero-content-->
 
 </div>
 <!--end Hero-->
@@ -77,20 +77,20 @@
 <!--start Main-->
 <main>
 
-<!--start About-->
+    <!--start About-->
 
     <section class="about">
         <div class="container">
 
-            <h2>
+            <h2 class="about__title">
                 About
             </h2>
-            <p>
+            <p class="about__text">
                 Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus,
                 in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor
                 nulla nulla egestas odio pharetra egestas aliquet mollis.
             </p>
-            <p>
+            <p class="about__text">
                 Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet tellus, in rutrum augue.
                 Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor nulla
                 nulla egestas odio pharetra egestas aliquet mollis. diam penatibus aliquet tellus, in rutrum augue. Pellentesque.
@@ -99,90 +99,90 @@
         </div>
     </section>
 
-<!--   end About-->
+    <!--   end About-->
 
-<!--    start section Skills-->
+    <!--    start section Skills-->
 
     <section class="skills">
         <div class="container">
 
-            <h2>
+            <h2 class="skills__title">
                 Skills
             </h2>
 
-            <div class="skills-row">
+            <div class="skills__skills-row">
 
-                <img src="Image/Black%20man.jpg" alt="Man on the air">
+                <img class="skills__image" src="Image/Black%20man.jpg" alt="Man on the air">
 
-                <ul class="list-skills">
-                    <li>
-                        <div class="skills-item">
+                <ul class="skills__list">
+                    <li class="skills__element">
+                        <div class="skills__item">
 
-                            <p class="skills-key">
+                            <p class="skills__key">
                                 Profile
                             </p>
 
-                            <p class="skills-value">
+                            <p class="skills__value">
                                 UI / UX Engineer, Front-end Developer
                             </p>
                         </div>
                     </li>
 
-                    <li>
-                        <div class="skills-item">
-                            <p class="skills-key">
+                    <li class="skills__element">
+                        <div class="skills__item">
+                            <p class="skills__key">
                                 UX Research
                             </p>
-                            <div class="progressbar">
-                                <div class="progressbar-percent"></div>
+                            <div class="skills__progressbar">
+                                <div class="skills__progressbar-percent"></div>
                             </div>
                         </div>
 
-                        <div class="skills-item">
-                            <p class="skills-key">
+                        <div class="skills__item">
+                            <p class="skills__key">
                                 Tools
                             </p>
-                            <p class="skills-value">
+                            <p class="skills__value">
                                 Paper, Pen, Balsamiq
                             </p>
                         </div>
                     </li>
 
-                    <li>
-                        <div class="skills-item">
-                            <p class="skills-key">
+                    <li class="skills__element">
+                        <div class="skills__item">
+                            <p class="skills__key">
                                 UI Design
                             </p>
-                            <div class="progressbar">
-                                <div class="progressbar-percent" style="width: 70%"></div>
+                            <div class="skills__progressbar">
+                                <div class="skills__progressbar-percent" style="width: 70%"></div>
                             </div>
                         </div>
 
-                        <div class="skills-item">
-                            <p class="skills-key">
+                        <div class="skills__item">
+                            <p class="skills__key">
                                 Tools
                             </p>
-                            <p class="skills-value">
+                            <p class="skills__value">
                                 Adobe PS, AI, XD, Figma, InVision
                             </p>
                         </div>
                     </li>
 
-                    <li>
-                        <div class="skills-item">
-                            <p class="skills-key">
+                    <li class="skills-element">
+                        <div class="skills__item">
+                            <p class="skills__key">
                                 Front-end Dev
                             </p>
-                            <div class="progressbar">
-                                <div class="progressbar-percent" style="width: 60%"></div>
+                            <div class="skills__progressbar">
+                                <div class="skills__progressbar-percent" style="width: 60%"></div>
                             </div>
                         </div>
 
-                        <div class="skills-item">
-                            <p class="skills-key">
+                        <div class="skills__item">
+                            <p class="skills__key">
                                 Tools
                             </p>
-                            <p class="skills-value">
+                            <p class="skills__value">
                                 HTML, CSS, JS, Bootstrap, React
                             </p>
                         </div>
@@ -197,56 +197,56 @@
         </div>
     </section>
 
-<!--    end section Skills-->
+    <!--    end section Skills-->
 
-<!--    start Portfolio-->
+    <!--    start Portfolio-->
     <section class="portfolio">
         <div class="container">
 
-            <h2>
+            <h2 class="portfolio__title">
                 Portfolio
             </h2>
 
-          <!-- start Portfolio-row-->
+            <!-- start Portfolio-row-->
 
-            <div class="portfolio-row">
+            <div class="portfolio__portfolio-row">
 
-          <!-- start Portfolio-text-->
+                <!-- start Portfolio-content-->
 
-                <div class="portfolio-text">
+                <div class="portfolio__content">
 
-                    <h3>
+                    <h3 class="portfolio__subtitle">
                         UX Research
                     </h3>
-                    <p>
+                    <p class="portfolio__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio cursus id. Diam massa semper a tincidunt cursus ultricies lectus eget urna.
                     </p>
                 </div>
 
-           <!-- end Portfolio-text-->
+                <!-- end Portfolio-content-->
 
                 <!--  start Portfolio-images-->
-                <div class="portfolio-images">
-                    
-                    <div class="portfolio-column">
+                <div class="portfolio__images">
+
+                    <div class="portfolio__portfolio-column">
                         <img src="Image/Ships.jpg" alt="Ships">
                         <img src="Image/Sea.jpg" alt="River">
                     </div>
-                    
-                    <div class="portfolio-column">
+
+                    <div class="portfolio__portfolio-column">
                         <img src="Image/Bridge.png" alt="Bridge">
                         <img src="Image/House.jpg" alt="House">
                     </div>
 
                 </div>
-          <!--  end Portfolio-images-->
+                <!--  end Portfolio-images-->
 
             </div>
-<!-- end Portfolio-row-->
+            <!-- end Portfolio-row-->
 
         </div>
     </section>
-<!--    end Portfolio-->
+    <!--    end Portfolio-->
 
 
 </main>
@@ -254,55 +254,55 @@
 
 <!--start Footer-->
 
-<footer>
+<footer class="footer">
     <div class="container">
 
-        <h2>
+        <h2 class="footer__title">
             Get in Touch
         </h2>
-        
-        <div class="footer-row">
 
-            <ul>
-                <li>
-                    <a href="">Dribbble</a>
+        <div class="footer__footer-row">
+
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="">Dribbble</a>
                 </li>
-                <li>
-                    <a href="">Behance</a>
+                <li class="footer__item">
+                    <a class="footer__link" href="">Behance</a>
                 </li>
-                <li>
-                    <a href="">CodePen</a>
+                <li class="footer__item">
+                    <a class="footer__link" href="">CodePen</a>
                 </li>
-                <li>
-                    <a href="">GitHub</a>
+                <li class="footer__item">
+                    <a class="footer__link" href="">GitHub</a>
                 </li>
-                <li>
-                    <a href="">Medium</a>
+                <li class="footer__item">
+                    <a class="footer__link" href="">Medium</a>
                 </li>
             </ul>
 
-            <ul>
-                <li>
-                    <a href=>Linkedin</a>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href=>Linkedin</a>
                 </li>
-                <li>
-                    <a href=>Facebook</a>
+                <li class="footer__item">
+                    <a class="footer__link" href=>Facebook</a>
                 </li>
-                <li>
-                    <a href=>Instagram</a>
+                <li class="footer__item">
+                    <a class="footer__link" href=>Instagram</a>
                 </li>
-                <li>
-                    <a href=>Twitter</a>
+                <li class="footer__item">
+                    <a class="footer__link" href=>Twitter</a>
                 </li>
             </ul>
 
-            <ul>
-                <li>
-                    <a href="mailto:seyrig@mailme.com">
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="mailto:seyrig@mailme.com">
                         seyrig@mailme.com</a>
                 </li>
-                <li>
-                    <a href="tel:+556645665544">
+                <li  class="footer__item">
+                    <a class="footer__link" href="tel:+556645665544">
                         + 55 6645 665544</a>
                 </li>
             </ul>
