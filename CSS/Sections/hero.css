@@ -1,44 +1,122 @@
 /*start Header*/
-.header{
+.header {
     margin-bottom: 145px;
 }
-.hero__container{
+
+@media screen and (max-width: 960px) {
+    .header {
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (width <= 768px) {
+    .header {
+        margin-bottom: 30px;
+    }
+}
+
+.hero__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+@media screen and (width <= 768px) {
+    .hero__container {
+       flex-direction: column;
+        gap: 25px;
+    }
+}
+
+.logo {
     font-size: 24px;
     line-height: calc(29 / 24);
     font-weight: 700;
 }
-.header__list{
+
+@media screen and (width <= 768px) {
+    .logo {
+       font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .logo {
+       font-size: 22px;
+    }
+}
+
+.header__list {
     display: flex;
     gap: 60px;
 }
-.header__link{
+
+@media screen and (width <= 768px) {
+    .header__list {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.header__link {
     font-size: 18px;
     line-height: calc(22 / 18);
 }
-.header__item:first-child{
+
+.header__item:first-child {
     font-weight: 700;
 }
+
 /* end Header*/
 
 /*start Hero-content*/
-.hero-content__title{
+.hero-content__title {
     font-size: 64px;
     line-height: calc(78 / 64);
     margin-bottom: 26px;
 }
-.hero-content__text{
+
+@media screen and (max-width: 960px) {
+    .hero-content__title {
+        font-size: 58px;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (width <= 768px) {
+    .hero-content__title {
+        font-size: 36px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+}
+
+.hero-content__text {
     font-size: 24px;
     line-height: calc(29 / 24);
     margin-bottom: 106px;
 }
-.hero-content__link{
+
+@media screen and (max-width: 960px) {
+   .hero-content__text{
+       margin-bottom: 60px;
+   }
+}
+
+@media screen and (width <= 768px) {
+    .hero-content__text {
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 40px;
+    }
+}
+
+.hero-content__link {
     font-size: 18px;
     line-height: calc(22 / 18);
     text-decoration: underline;
 }
+
+
+
 /*end Hero-content*/

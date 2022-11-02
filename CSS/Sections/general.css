@@ -1,20 +1,51 @@
-body{
+body {
     font-family: 'Libre Franklin', sans-serif;
     color: #333333;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-.container{
+
+.container {
     width: 1107px;
     margin-left: auto;
     margin-right: auto;
 }
-.hero{
+
+@media screen and (max-width: 960px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media screen and (width <= 768px  ) {
+    .container {
+        width: 92%;
+    }
+}
+
+.hero {
     background-image: url("../../Image/Background.jpg");
     background-position: center;
     background-size: cover;
     padding-top: 93px;
     padding-bottom: 240px;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 960px) {
+    .hero {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (width <= 768px  ) {
+    .hero {
+        background-color: #C66C49;
+        background-image: none;
+        padding-top: 43px;
+        padding-bottom: 60px;
+    }
 }
